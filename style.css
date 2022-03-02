@@ -1,0 +1,72 @@
+.flex-container{
+    font-family: hero;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    height: 100px;
+    margin: -10px -10px 0px -10px;
+    padding-top: 20px; 
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.flex-container div{
+    height: 20px;
+    flex: 1 1 auto;
+    font-family: Hero;
+}
+
+.mainHeader{
+    padding-right: 4px;
+}
+
+.headSpacer{
+    flex-shrink: 0;
+}
+
+.flex-containerSecond{
+    margin: -35px -10px 0px -10px;
+    background-color: #1F2937;
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 100px;
+    height: 200px;
+}
+
+.flex-containerSecond div{
+    width: 500px;
+
+}
+
+.signUpBtn{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color:#E5E7EB;
+    background-color: #3882F6;
+    border-width: 0px;
+}
+.websiteHeader{
+    font-size: 48px;
+    font-style: extra-bold;
+    color:#F9FAF8;
+    font-family: Hero;
+}
+
+.topParagraph{
+    font-size:18px;
+    color:#E5E7EB
+}
+
+.topImg{
+    font-size:24px;
+    background-color: gray;
+    height: 200px;
+    width: 400px;
+    color:#E5e7eb;
+}
+
